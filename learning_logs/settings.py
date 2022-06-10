@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #Mis apps.
+    'learning_log',
+    
+    #Apps default de Django.
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

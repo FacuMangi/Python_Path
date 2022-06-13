@@ -1,11 +1,11 @@
 {% extends "learning_log/base.html" %}
 
-{% blck content %}
+{% block content %}
 
 	<p>Topics</p>
 
 	<ul>
-		{% for topic in topics %}
+		{% for topic in Topics %}
 			<li>{{ topic }}</li>
 		{% empty %}
 
@@ -14,3 +14,4 @@
 	</ul>
 
 {% endblock content %}
+
